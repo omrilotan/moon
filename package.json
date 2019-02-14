@@ -1,0 +1,11 @@
+{
+  "name": "moon",
+  "version": "0.0.0",
+  "description": "🌝",
+  "author": "omrilotan",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "the-moon": "^1.1.0"
+  }
+}

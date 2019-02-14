@@ -1,0 +1,16 @@
+{
+	"short_name": "Moon",
+	"name": "Moon",
+	"icons": [
+		{
+			"src": "./moon.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "./",
+	"background_color": "#000000",
+	"display": "standalone",
+	"scope": "./",
+	"theme_color": "#000000"
+}
