@@ -31,6 +31,7 @@ window.module = window.module || {};
 		<script src="./node_modules/the-moon/dist/index.js"></script>
 		<script>
 moon.innerText = window.module.exports();
+document.title = moon.innerText + window.module.exports({format: 'name'});
 let isfs = false;
 document.addEventListener('fullscreenchange', () => { isfs = !isfs; }, false);
 moon.addEventListener('click', () => isfs ? document.exitFullscreen() : document.body.requestFullscreen(), false);
